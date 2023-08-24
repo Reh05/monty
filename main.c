@@ -1,10 +1,9 @@
 #include "monty.h"
 /**
- * main - starting point of the monty program
- * @argc: Number of arguments passe to our program
- * @argv: array of the arguments passed
- *
- * Return: Return 0 on successful execution, otherwise -1
+ * main - starting point of the program
+ * @argc: Number of arguments
+ * @argv: array of the arguments
+ * Return: Return 0 on success, otherwise -1
  */
 int main(int argc, char **argv)
 {
