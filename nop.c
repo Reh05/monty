@@ -1,12 +1,13 @@
 #include "monty.h"
+
 /**
- * nop - this opcode doesn't do anything
- * @stack: the stack we're working on
- * @line_number: line to be read
- * Return: nothing
+ * f_nop - Does nothing.
+ * @head: Stack head
+ * @counter: Line number
+ * Return: No return
  */
-void nop(stack_t **stack, unsigned int line_number)
+void f_nop(stack_t **head, unsigned int counter)
 {
-	(void)stack;
-	(void)line_number;
+    (void)counter;
+    (void)head;
 }
